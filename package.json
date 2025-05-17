@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:run": "cypress run --record --key e19e79d8-abc5-424e-ab31-65e7cac42a2f"
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
@@ -19,9 +20,6 @@
     "glob": "^7.2.0",
     "globby": "^13.1.1",
     "linkinator": "^3.0.3",
-    "next": "^12.3.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "react-hook-form": "^7.27.1",
     "react-slick": "^0.28.1",
     "rehype-slug": "^5.0.1",
@@ -34,6 +32,7 @@
     "@types/react": "^17.0.39",
     "autoprefixer": "^10.4.2",
     "chai": "^4.3.6",
+    "cypress": "^14.3.3",
     "eslint": "^8.10.0",
     "eslint-config-next": "^12.1.0",
     "eslint-config-prettier": "^8.5.0",
